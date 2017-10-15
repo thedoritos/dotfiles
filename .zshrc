@@ -1,5 +1,5 @@
 # prompt
-RPROMPT="$(pwd)"
+RPROMPT='%/'
 
 # completion
 autoload -Uz compinit && compinit
