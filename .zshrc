@@ -1,3 +1,6 @@
+# completion
+autoload -Uz compinit && compinit
+
 # git
 alias gs='git status'
 alias gl='git log --graph'
