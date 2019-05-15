@@ -9,6 +9,9 @@ export PATH="$PATH":"$HOME/sdk/flutter/.pub-cache/bin"
 # Kotlin Native
 export PATH=$PATH:$HOME/sdk/kotlin-native-macos-0.9.3/bin
 
+# Postgres
+export PGDATA='/usr/local/var/postgres'
+
 # Local
 [ -f ~/.zshenv.local ] && source ~/.zshenv.local
 
