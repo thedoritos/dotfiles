@@ -6,6 +6,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$HOME/sdk/flutter/bin
 export PATH="$PATH":"$HOME/sdk/flutter/.pub-cache/bin"
 
+# Kotlin Native
+export PATH=$PATH:$HOME/sdk/kotlin-native-macos-0.9.3/bin
+
 # Local
 [ -f ~/.zshenv.local ] && source ~/.zshenv.local
 
